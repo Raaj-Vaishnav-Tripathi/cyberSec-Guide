@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cyberSec Guide</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Typography */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background-color: #0072c6;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            overflow: hidden;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #e9e9e9;
+        }
+
+        .current {
+            background-color: #0072c6;
+            color: white;
+        }
+
+        section {
+            padding: 3rem 0;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #0072c6;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .button:hover {
+            background-color: #005d99;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .banner p {
+            margin-bottom: 0;
+        }
+
+        /* Card */
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card h3 {
+            color: #0072c6;
+            margin-bottom: 1rem;
+        }
+
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #0072c6;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005d99;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>cyberSec Guide</h1>
+            <p>A guide to staying safe and secure online.</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#" class="current">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="card">
+                <h3>Protect Your Passwords</h3>
+                <p>Use strong passwords that are at least 12 characters long and include a mix of uppercase and
+                    lowercase letters, numbers, and symbols. Don't use the same password for multiple accounts, and
+                    consider using a password manager to keep track of all your passwords.</p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Keep Your Software Up to Date</h3>
+                <p>Make sure to install updates for your operating system, web browser, and other software as soon as
+                    they become available. These updates often include important security patches that can help protect
+                    your computer and your personal information.</p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Be Careful What You Click</h3>
+                <p>Be wary of clicking on links or downloading attachments from unknown or suspicious sources. These
+                    could be phishing scams or contain malware that can harm your computer and steal your information.
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <section>
+                    <div class="container">
+                        <div class="card">
+                            <h3>Protect Your Passwords</h3>
+                            <p>Your passwords are the keys to your digital life, so it's important to keep them safe and
+                                secure. Here are some tips:</p>
+                            <ul>
+                                <li>Use a different password for every account.</li>
+                                <li>Use a password manager to keep track of your passwords.</li>
+                                <li>Choose a strong password that is at least 12 characters long and includes a mix of
+                                    letters, numbers, and symbols.</li>
+                                <li>Don't use personal information, such as your name or birthdate, in your password.
+                                </li>
+                                <li>Enable two-factor authentication whenever possible.</li>
+                            </ul>
+                            <a href="#" class="button">Learn More</a>
+                        </div>
+                        <div class="card">
+                            <h3>Keep Your Software Up to Date</h3>
+                            <p>Software updates often include security patches that fix vulnerabilities and protect
+                                against cyber attacks. Here's what you should do:</p>
+                            <ul>
+                                <li>Turn on automatic updates for your operating system and software.</li>
+                                <li>Check for updates regularly and install them as soon as possible.</li>
+                                <li>Uninstall software that you don't use or need.</li>
+                            </ul>
+                            <a href="#" class="button">Learn More</a>
+                        </div>
+                        <div class="card">
+                            <h3>Be Careful What You Click</h3>
+                            <p>Phishing emails and fake websites are common ways that cyber criminals try to steal your
+                                information. Here's how to protect yourself:</p>
+                            <ul>
+                                <li>Don't click on links or download attachments from unknown or suspicious sources.
+                                </li>
+                                <li>Verify the authenticity of a website before entering any personal information.</li>
+                                <li>Be wary of emails that ask for sensitive information or urgent action.</li>
+                            </ul>
+                            <a href="#" class="button">Learn More</a>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="banner">
+                            <p>Stay safe and secure online!</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <h2>Contact Us</h2>
+                        <form action="#" method="post">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <p>&copy; 2023 cyberSec Guide</p>
+                    </div>
+                </footer>
+</body>
+
+</html> 
