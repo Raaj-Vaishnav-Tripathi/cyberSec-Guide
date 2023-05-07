@@ -1,3 +1,3 @@
 # cyberSec_guide
 
-Basic Cyber Security Guide Application using Flutter, Html, CSS and Javascript.
+Basic Cyber Security Guide Mobile Application that gives the detailed explanation aboutall major trends and technologies in cyber security.
