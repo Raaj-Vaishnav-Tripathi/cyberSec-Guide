@@ -45,10 +45,6 @@ The **Cyber Security Guide** is a mobile application offering an in-depth explor
     flutter run
     ```
 
-**For Users:**
-
-Download the APK from this repository
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
